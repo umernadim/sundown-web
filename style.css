@@ -373,11 +373,11 @@ nav h3 {
 
 #footer {
     position: fixed;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-color: #fe320a;
     color: #fff;
-    z-index: 9;
+    z-index: -1;
     bottom: 0;
     display: flex;
     justify-content: flex-end;
@@ -475,7 +475,8 @@ nav h3 {
 
 #full-div1 h2 {
     color: #000;
-}
+} 
+
 
 #loader {
     height: 100%;
@@ -525,8 +526,6 @@ nav h3 {
         opacity: 0;
     }
 }
-
-
 
 
 @media screen and (max-width: 768px) {

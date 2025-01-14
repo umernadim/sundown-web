@@ -1,5 +1,5 @@
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('body'),
+    el: document.querySelector('#main'),
     smooth: true
 });
 
@@ -42,6 +42,8 @@ menu.addEventListener('click', () => {
         flag = 0
     }
 })
+
+
 
 let loader = document.querySelector('#loader')
 setTimeout(function () {
